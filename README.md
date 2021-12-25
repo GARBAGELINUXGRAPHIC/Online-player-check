@@ -1,33 +1,33 @@
 # Online-player-check
-This is a open-source BungeeCord plugin that out put html when player join or leave.
-这是一个用于统计玩家加入和退出的开源蹦极服插件
-You need a website to use this plugin
-你必须有一个网站以使用本插件
-By [sharkmc.cn](http://sharkmc.cn)
-作者:[sharkmc.cn](http://sharkmc.cn)
-[hr]
-I know. I know. I wrote a piece of crap and tons of useless code with terrible coding habits and something exteremely hard to update.
-啊对对对 对对对 我做了一坨一堆冗余代码和难以更新的玩意
-Then please make a new one and keep it updated before bully me.
-请你做一个更好的再来骂我
-[hr]
-## Feature 特色
-· Trigger when player connect or disconnect
-  在玩家加入或退出时实时响应
-· Output UTF-8 html with modern UI that is easy to iframe
-  输出标准UTF-8编码的具有现代UI设计且易于iframe的网页
-· Show Current,max and average player count on html
-  在网页显示当前，最高，平均玩家数
-· Display a graph create by ctx in js that show how player count float in 24h
-  显示由js中ctx制作的24小时玩家波动情况图像
-· Chinese and English support
-  支持中英文
-· Customize settings
-  自定义设置
-· High/Low performance mode
-  高/低性能模式
-[hr]
-## How to config 如何设置
+This is a open-source BungeeCord plugin that out put html when player join or leave.[br]
+这是一个用于统计玩家加入和退出的开源蹦极服插件[br]
+You need a website to use this plugin[br]
+你必须有一个网站以使用本插件[br]
+By [sharkmc.cn](http://sharkmc.cn)[br]
+作者:[sharkmc.cn](http://sharkmc.cn)[br]
+[hr][br]
+I know. I know. I wrote a piece of crap and tons of useless code with terrible coding habits and something exteremely hard to update.[br]
+啊对对对 对对对 我做了一坨一堆冗余代码和难以更新的玩意[br]
+Then please make a new one and keep it updated before bully me.[br]
+请你做一个更好的再来骂我[br]
+[hr][br]
+## Feature 特色[br]
+· Trigger when player connect or disconnect[br]
+  在玩家加入或退出时实时响应[br]
+· Output UTF-8 html with modern UI that is easy to iframe[br]
+  输出标准UTF-8编码的具有现代UI设计且易于iframe的网页[br]
+· Show Current,max and average player count on html[br]
+  在网页显示当前，最高，平均玩家数[br]
+· Display a graph create by ctx in js that show how player count float in 24h[br]
+  显示由js中ctx制作的24小时玩家波动情况图像[br]
+· Chinese and English support[br]
+  支持中英文[br]
+· Customize settings[br]
+  自定义设置[br]
+· High/Low performance mode[br]
+  高/低性能模式[br]
+[hr][br]
+## How to config 如何设置[br]
 ```
 OCB config guide Version 1 
     1 "version" : 1 版本：1
@@ -63,19 +63,19 @@ OCB config guide Version 1
     1
     2
 ```
-[hr]
-## Tip
-· I want to show a simple number on my website that shows how many people are there on my server
-  我想在我的主网页上嵌套一个显示基础人数的网页
-··iframe online_basic.html:
+[hr][br]
+## Tip[br]
+· I want to show a simple number on my website that shows how many people are there on my server[br]
+  我想在我的主网页上嵌套一个显示基础人数的网页[br]
+··iframe online_basic.html:[br]
 ```
 <!add this to anywhere you want on your website>
 <iframe src="ONLINE_PATH/online/online_basic.html" scrolling="no" width="100%" height="100%" frameborder="0" allowtransparency="true" style="text-align: center; width: 200px;height: 30px;margin-left: 50px;"></iframe>
 ```
-
-· I want to show the details of my server and i don't need index.html!
-  我不需要index.html而希望直接显示具有大量细节的online_pro.html
-··redirect to online_pro.html:
+[br]
+· I want to show the details of my server and i don't need index.html![br]
+  我不需要index.html而希望直接显示具有大量细节的online_pro.html[br]
+··redirect to online_pro.html:[br]
 ```
 <!write this on index.html>
 <meta http-equiv="refresh" content="0; url=online/online_pro.html" />
