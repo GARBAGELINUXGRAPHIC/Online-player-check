@@ -14,17 +14,6 @@ By [sharkmc.cn](http://sharkmc.cn)
 作者:[sharkmc.cn](http://sharkmc.cn)
 
 
-
-I know. I know. I wrote a piece of crap and tons of useless code with terrible coding habits and something exteremely hard to update.
-
-啊对对对 对对对 我做了一坨一堆冗余代码和难以更新的玩意
-
-Then please make a new one and keep it updated before bully me.
-
-请你做一个更好的再来骂我
-
-
-
 ## Feature 特色
 
 · Trigger when player connect or disconnect
@@ -54,6 +43,10 @@ Then please make a new one and keep it updated before bully me.
 · High/Low performance mode
 
   高/低性能模式
+  
+· Customize themes
+
+  自定义主题
 
 
 
@@ -84,7 +77,7 @@ OCB config guide Version 1
     example config: 示例
     1
     1
-    3
+    1
     C:\\phpstudy_pro\\WWW\\
     http://sharkmc.cn/
     1
@@ -95,6 +88,16 @@ OCB config guide Version 1
     2
 ```
 
+## How to use themes 如何使用主题
+
+1 > copy all the files(*.html,*.css,*.cfg) in the theme folder to the local_path\online of ocb.cfg(replace all)
+
+1 > 复制所有主题文件夹中的html css cfg文件到ocb.cfg中设置的本地路径\online文件夹并替换全部
+
+
+2 > restart bungeecord and type "ocb write all"
+
+2 > 重启bungeecord并输入ocb write all
 
 
 ## Tip
