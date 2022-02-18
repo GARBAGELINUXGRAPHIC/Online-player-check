@@ -1,4 +1,5 @@
 # Online-player-check
+
 ![Preview](https://github.com/GARBAGELINUXGRAPHIC/Online-player-check/blob/main/preview.PNG?raw=true)
 
 This is a open-source BungeeCord plugin that out put html when player join or leave.
@@ -48,7 +49,13 @@ By [sharkmc.cn](http://sharkmc.cn)
 
   自定义主题
 
+### 其他主题展示
 
+![Light](https://github.com/GARBAGELINUXGRAPHIC/Online-player-check/blob/main/preview.PNG?raw=true)
+
+![Candy](https://github.com/GARBAGELINUXGRAPHIC/Online-player-check/blob/main/preview.PNG?raw=true)
+
+![Space](https://github.com/GARBAGELINUXGRAPHIC/Online-player-check/blob/main/preview.PNG?raw=true)
 
 ## How to config 如何设置
 
@@ -99,6 +106,26 @@ OCB config guide Version 1
 
 2 > 重启bungeecord并输入ocb write all
 
+## How to config online_graph_ctx_settings.cfg 如何设置online_graph_ctx_settings.cfg
+
+This file control online graph that ocb output
+
+这个文件控制图表输出
+
+```
+ctx.font : font of the numbers, include the time below and the player count at left. 坐标轴字体
+ctx.fillStyle : color of the numbers, include the time below and the player count at left. 坐标轴上字符颜色
+ctx.fillStyle : color of the player numbers above the line dot 折线图上折线上文字颜色
+ctx.font : font of the player numbers above the line dot 折线图上折线上字体
+ctx.strokeStyle : color of the lines 折线颜色
+
+example config:
+20px MicroSoft YaHei
+#00aaff
+#ffffff
+15px Arial
+#cccccc
+```
 
 ## Tip
 
